@@ -1,7 +1,8 @@
-import React, {Component} from 'react';
+import React, {PureComponent} from 'react';
 import PropTypes from 'prop-types';
 import './media.css';
-class Media extends Component {
+
+class Media extends PureComponent {
     state = {
         author: 'Javi Pons'
     }
@@ -35,7 +36,7 @@ class Media extends Component {
             <img 
             src={this.props.cover}
             alt=""
-            width={260}
+            width={240}
             height={160}
             className="Media-image"
             />

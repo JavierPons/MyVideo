@@ -1,0 +1,7 @@
+.Playlist {
+   overflow-x: auto;
+
+   white-space: nowrap;
+   overflow: hidden;
+   padding-bottom: 90px;
+}
